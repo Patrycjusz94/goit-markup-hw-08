@@ -5,8 +5,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 440px;
 
+  height: 400px;
   background-position: center;
   padding-top: 80px;
   background-position: 50% 50%;
@@ -64,6 +64,7 @@ background-image: url(/goit-markup-hw-08/images/background/hero-mobile2x.jpg);
 
 @media (min-width: 768px) {
   .hero {
+    height: 400px;
 background-image: url(/goit-markup-hw-08/images/background/hero-tablet.jpg);
   }
 @media (min-width: 768px) and (min-device-pixel-ratio: 2),
@@ -77,6 +78,8 @@ background-image: url(/goit-markup-hw-08/images/background/hero-tablet.jpg);
 
 @media (min-width: 1200px) {
   .hero {
+    height: 600px;
+    justify-content:center;
 background-image: url(/goit-markup-hw-08/images/background/hero-desctop.jpg);
   }
 @media (min-width: 1200px) and (min-device-pixel-ratio: 2),
