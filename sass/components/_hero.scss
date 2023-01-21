@@ -1,5 +1,5 @@
 .hero {
-  background-image: url(../images/background/background-hero.jpg);
+  background-image: url(/goit-markup-hw-08/images/background/background-hero.jpg);
   background-repeat: no-repeat;
   height: 400px;
   background-size: cover;
@@ -55,7 +55,7 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero {
     padding-top: 80px;
-    background-image: url(../images/background/background-hero@2x.jpg);
+    background-image: url(/goit-markup-hw-08/images/background/background-hero@2x.jpg);
   }
 }
 .hero__header {
@@ -67,7 +67,7 @@
     width: 1600px;
     height: 600px;
     padding-top: 80px;
-    background-image: url(../images/background/background-hero@3x.jpg);
+    background-image: url(/goit-markup-hw-08/images/background/background-hero@3x.jpg);
   }
 
   .hero__header {
