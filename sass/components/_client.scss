@@ -1,7 +1,8 @@
 .client {
   text-align: center;
   width: 100%;
-  max-width: 1200px;
+  width-max: 1200px;
+  margin: 0 auto;
   margin-top: 60px;
   padding: 10px;
 
@@ -50,7 +51,7 @@
 @media screen and (min-width: 1200px) {
   .client {
     padding-top: 94px;
-    max-width: 1200px;
+    width: 1200px;
   }
 
   .client__list {

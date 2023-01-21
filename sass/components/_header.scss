@@ -3,6 +3,9 @@
   align-items: center;
   gap: 93px;
   height: 80px;
+  justify-content: space-between;
+  width-max: 1200px;
+  margin: 0 auto;
 
   &__container {
     padding: 16px 15px;
@@ -110,12 +113,13 @@
 @media screen and (min-width: 1200px) {
   .header {
     padding: 5px 0;
+    width: 1200px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .header__nav-list,
-  .header__address-list {
+  .header__nav {
     display: none;
   }
+
 }

@@ -1,5 +1,5 @@
 .hero {
-  background-image: url(/pomoc/images/background/background-hero.jpg);
+  background-image: url(../images/background/background-hero.jpg);
   background-repeat: no-repeat;
   height: 400px;
   background-size: cover;
@@ -8,10 +8,11 @@
   align-items: center;
   padding-top: 80px;
   background-position: 50% 50%;
+  width-max: 1600px;
+  margin: 0 auto;
 
   &__container {
     margin-top: 40px;
-
     text-align: center;
   }
 
@@ -22,7 +23,6 @@
     line-height: 42px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
     color: $white;
   }
 
@@ -55,7 +55,7 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero {
     padding-top: 80px;
-    background-image: url(/pomoc/images/background/background-hero@2x.jpg);
+    background-image: url(../images/background/background-hero@2x.jpg);
   }
 }
 .hero__header {
@@ -64,9 +64,10 @@
 
 @media screen and (min-width: 1200px) {
   .hero {
+    width: 1600px;
     height: 600px;
     padding-top: 80px;
-    background-image: url("/pomoc/images/background/background-hero@3x.jpg");
+    background-image: url(../images/background/background-hero@3x.jpg);
   }
 
   .hero__header {
