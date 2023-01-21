@@ -1,0 +1,32 @@
+.button {
+  background-color: $purple;
+  color: $white;
+  fill: $white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition-property: background-color, color, fill, box-shadow;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+
+  &--newsletter {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  &--newsletter:hover,
+  &--newsletter:focus {
+    background-color: $white;
+    color: $purple;
+    fill: $purple;
+  }
+}

@@ -1,0 +1,89 @@
+.project {
+  margin-bottom: 94px;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 60px;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  &__figure {
+    background: $white;
+    border: 1px solid #eeeeee;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+      transform: translateY(0);
+    }
+
+    &:hover .project__text {
+      transform: translateY(0);
+    }
+  }
+
+  &__animation {
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__img {
+    position: relative;
+  }
+
+  &__text {
+    position: absolute;
+    background: rgba(33, 150, 243, 0.9);
+    top: 0;
+    left: 0;
+
+    transform: translateY(110%);
+    transition: transform 250ms ease;
+    padding-left: 24px;
+    padding-top: 49px;
+    padding-right: 45px;
+    font-size: 1.125rem;
+    line-height: 1.75;
+    letter-spacing: 0.03em;
+    color: $white;
+  }
+
+  &__figure-header {
+    padding-left: 24px;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 2.25;
+    letter-spacing: 0.06em;
+    color: #212121;
+    margin-top: 20px;
+    margin-bottom: 4px;
+  }
+
+  &__description {
+    padding-left: 24px;
+    font-size: 1rem;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: $gray;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .projects__figure {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .projects__figure {
+    flex-basis: calc((100% - 30px) / 3.1);
+  }
+}

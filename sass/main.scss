@@ -1,0 +1,15 @@
+@use './utils/vars' as *;
+@use './utils/global' as *;
+@import './components/article';
+@import './components/services';
+@import './components/team';
+@import './components/client';
+@import './components/footers';
+@import './components/hero';
+@import './components/headers';
+@import './components/button';
+@import './components/mobile';
+@import './components/modal';
+@import './components/project';
+@import './components/portfolio-nav'
+
